@@ -1,0 +1,84 @@
+body{
+
+}
+div.navbar-holder{
+    justify-content: space-around;
+    display:flex;
+    gap: 10%;
+   margin-top: 2%;  
+   
+}
+div.upper-body{
+   
+}
+div.left-side-bar{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* video background codes */
+
+#background-video {
+    position: sticky;
+    transition: 10s;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 99%;
+    z-index: -1;
+    backdrop-filter: blur(3px);
+  }
+
+  #content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: #882424;
+    font-size: 24px;
+  }
+
+  /* profile details */
+
+  div.lower-body{
+     position: absolute;
+    left: 40%;
+    top: 16%; 
+  }
+
+  img.profile-image{
+    width: 40%;
+    border-radius: 50%;
+    /* Du skal skrive: margin: auto;
+    justify-content: ;
+    flex-direction: ;
+    align-items: ;
+    line-height: ; */
+   
+  }
+
+  h1,h3{
+    color: white;
+    position: relative;
+    right: 30px;
+  }
+  h3{
+    position: relative;
+    right: 30%;
+  }
+  div.btn-holder{
+    
+  }
+  button.clicky{
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    gap: 20px ;
+    background-color: rgba(12, 13, 13, 0.5);
+    backdrop-filter: blur(3px);
+    
+  }
+
