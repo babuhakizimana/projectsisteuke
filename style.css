@@ -1,15 +1,19 @@
 body{
-
+  padding: 0;
+  margin: 0;
+  
 }
 div.navbar-holder{
     justify-content: space-around;
     display:flex;
     gap: 10%;
-   margin-top: 2%;  
+  padding: 1%;
+  background-color: rgb;
+ 
    
 }
 div.upper-body{
-   
+ 
 }
 div.left-side-bar{
     display: flex;
@@ -17,18 +21,19 @@ div.left-side-bar{
 }
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: #979090;
+    background-color: ;
 }
 
 /* video background codes */
 
 #background-video {
-    position: sticky;
+    position: relative;
     transition: 10s;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 99%;
+    min-height: 100%;
     z-index: -1;
     backdrop-filter: blur(3px);
   }
